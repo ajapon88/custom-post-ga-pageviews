@@ -1,0 +1,3 @@
+WordpressでGoogleAnalyticsを利用したPageViews取得プラグイン
+GoogleAnalyticsの取得自体はhttps://github.com/a-japonicus/gapiを使用
+インストールに成功した場合、「設定」に「Pageviews設定」が追加されるのでそこでGoogleAnalyticsなどの設定を行う
