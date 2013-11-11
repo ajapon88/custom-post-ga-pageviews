@@ -1,6 +1,4 @@
 <?php
-require_once __DIR__.'/lib/google-api-php-client/src/Google_Client.php';
-require_once __DIR__.'/lib/google-api-php-client/src/contrib/Google_AnalyticsService.php';
 require_once __DIR__.'/lib/GAPI.php';
 
 
