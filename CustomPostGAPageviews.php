@@ -589,7 +589,7 @@ class CustomPostGAPageviews
     function showDashbord() {
         global $wp_meta_boxes;
 
-        wp_add_dashboard_widget('custom_help_widget', 'Tangle Custom Post GoogleAnalytics Pageviews', array($this, 'showDashbordOauth2TokenText'));
+        wp_add_dashboard_widget('custom_help_widget', 'Custom Post GoogleAnalytics Pageviews', array($this, 'showDashbordOauth2TokenText'));
     }
 
     /**
@@ -896,7 +896,7 @@ class CustomPostGAPageviews
         -->
         </script>
         <div class="wrap">
-            <div id="icon-options-general" class="icon32"><br /></div><h2>Tangle Custom Post Google Analytics Pageviews 設定</h2>
+            <div id="icon-options-general" class="icon32"><br /></div><h2>Custom Post Google Analytics Pageviews 設定</h2>
             <br />
             <div style="margin-left:20px;">
                 <?php foreach($this->error_msg as $err) : ?>
